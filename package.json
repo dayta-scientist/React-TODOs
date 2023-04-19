@@ -1,4 +1,5 @@
 {
+  "homepage": "https://dayta-scientist.github.io/React-TODOs",
   "name": "react-todos-list",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint . --ext .js,.jsx --fix"
+    "lint": "eslint . --ext .js,.jsx --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -30,6 +34,7 @@
     "eslint-plugin-n": "15.2.3",
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-react": "7.30.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.7.1",
     "vite": "2.9.12"
   }
