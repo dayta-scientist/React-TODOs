@@ -54,7 +54,7 @@ function AppUI() {
 
 			<CreateTodoButton setOpenModal={setOpenModal} />
 
-			<Footer/>
+			<Footer />
 		</React.Fragment>
 	);
 }
